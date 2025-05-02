@@ -1,0 +1,45 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 16px;
+  max-width: 250px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.favoriteButton {
+  padding: 8px 16px;
+  margin-top: 12px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.favorite {
+  background-color: #ff4d4d;
+}
+
+.notFavorite {
+  background-color: #4caf50;
+}
+
+.moreInfoBtn {
+  padding: 8px 16px;
+  margin-top: 8px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

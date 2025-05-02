@@ -1,0 +1,127 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.searchWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+  padding: 10px;
+  font-size: 16px;
+  width: 70%;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 25px;
+  border: 1px solid #4CAF50;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 25%;
+  margin-left: 10px;
+}
+
+.favoritesWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.favoriteIcon {
+  margin-right: 8px;
+
+}
+
+.favoritesCount {
+  font-weight: bold;
+  font-size: 18px;
+  color: #4CAF50;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding: 20px;
+  max-width: 1024px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.movie-detail-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.movie-detail-text {
+  max-width: 500px;
+  margin: 10px auto;
+  font-size: 1.1rem;
+  color: #555;
+  text-align: justify;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.movie-detail-container {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 30px;
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.movie-detail-container img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.movie-detail-container h1 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.movie-detail-container p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  color: #555;
+}
